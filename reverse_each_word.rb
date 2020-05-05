@@ -1,6 +1,6 @@
-def reverse_each_word(word)
+def reverse_each_word(sentence)
    array =[]
-   array << word
+   array << sentence
   array.collect do |words|
       "#{words} "
     end
